@@ -39,7 +39,7 @@ int main()
     for (i= 0 ; i < n ; i++){
         printf("Moyenne N %d:", i+1);
         scanf("%f", &moycl1[i]);
-        if (moycl1[i] < -1 || moycl1[i] > 21){
+        while (moycl1[i] < -1 || moycl1[i] > 21){
             printf("Entrez une moyenne entre 0 et 20 :\n");
             printf("Moyenne N %d:", i+1);
             scanf("%f", &moycl1[i]);
@@ -49,7 +49,7 @@ int main()
     for (i= 0 ; i < m ; i++){
         printf("Moyenne N %d:", i+1);
         scanf("%f", &moycl2[i]);
-       if (moycl2[i] <  -1 || moycl2[i] > 21){
+       while (moycl2[i] <  -1 || moycl2[i] > 21){
             printf("Entrez une moyenne entre 0 et 20 :\n");
             printf("Moyenne N %d:", i+1);
             scanf("%f", &moycl2[i]);}
